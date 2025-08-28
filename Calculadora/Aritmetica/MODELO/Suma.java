@@ -1,9 +1,9 @@
-package Calculadora;
+package Aritmetica.MODELO;
 
 public class Suma extends Operar {
 
     @Override
-    public int calcular(int a, int b) {
+    public double calcular(double a, double b) {
         return a + b;
     }
 
